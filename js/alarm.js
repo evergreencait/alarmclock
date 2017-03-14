@@ -1,5 +1,7 @@
 function Alarm(){
-  this.time = 12;
+  this.time = 0;
 }
+
+
 
 exports.alarmModule = Alarm;
