@@ -3,7 +3,7 @@ var Alarm = require('./../js/alarm.js').alarmModule;
 $(document).ready(function(){
   setInterval(function time() {
     $('#time').text(moment().format('H:mm:ss'));
-  } , 1000)
+  } , 1000);
   $('#alarm-set').submit(function(event) {
     event.preventDefault();
 
